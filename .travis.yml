@@ -4,5 +4,8 @@ node_js:
   - "0.10"
  deploy:
   provider: heroku
-  api_key: 73008e80-70de-4ee5-98a1-996f224bfd68
+  api_key: "73008e80-70de-4ee5-98a1-996f224bfd68"
   app: freshsite-staging
+before_script:
+  - 'npm install -g bower grunt-cli'
+  - 'bower install'
