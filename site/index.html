@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Codefresh</title>
+    <link rel="shortcut icon" href="img/codefresh_logo_f_icon.ico">
+
+      <link href='http://fonts.googleapis.com/css?family=Lobster|Anton' rel='stylesheet' type='text/css'>
+
+    <!-- Foundation-->
+    <link rel="stylesheet" href="css/foundation.css" />
+
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+
+    <!-- JQuery UI -->
+    <link href="jquery-ui-1.10.4.custom/css/custom-theme/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+
+    <script src="jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js"></script>
+
+    <link href="css/mystyles.css" rel="stylesheet">
+    <script src="js/myJS.js"></script>
+  </head>
+  <body>
+
+
+
+
+
+  <div class="mainscreen-site">
+      <div class="fresh-menu-bar">
+          <nav class="top-bar" data-topbar>
+              <ul class="title-area">
+                  <li class="name">
+                      <h1><a href="#"><img src="img/logo.png" width="70" height="50"></a></h1>
+                  </li>
+                  <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                  <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                  <li> [Debug Info - 3] </li>
+              </ul>
+
+              <section class="top-bar-section">
+                  <!-- Right Nav Section -->
+                  <ul class="right">
+                      <li><a href="#">Overview</a></li>
+                      <li><a href="#">About us</a></li>
+                      <li><a href="#" id="signinBtn">Sign In</a></li>
+                  </ul>
+
+                  <!-- Left Nav Section -->
+              </section>
+          </nav>
+      </div>
+      <div class="left-screen">
+          <p id="slogan_text" class="slogan">A&nbsp;&nbsp;<em class="logo-text">Fresh</em> approach to cloud coding</p><p class="comingsoon">[coming soon]</p>
+      </div>
+      <div class="right-screen"><img id="screen_img" src="img/animation.gif" class="screen_img"> </div>
+      <div class = "site-footer"></div>
+  </div>
+
+
+
+  <!--div class="mainscreen">
+
+      <div class="row">
+          <div class="small-6 columns">
+              <p id="slogan_text" class="slogan">A&nbsp;&nbsp;<em class="logo-text">Fresh</em> approach to cloud coding</p><p class="comingsoon">[coming soon]</p>
+          </div>
+          <div class="small-6 columns animation-background"><img id="screen_img" src="img/animation.gif" class="screen_img"> </div>
+      </div>
+
+  </div-->
+
+
+  <!-- LOGIN BOX -->
+
+  <div id="login-box" class="login-popup">
+      <a href="#" class="close" id="closebtn"><img src="img/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+      <form id="signin_form" method="get" class="signin" action="http://54.85.80.61:8000/home.html#/start">
+          <div class="signin_logo"><img src="img/logo.png" width="70" height="50"></div>
+          <fieldset class="textbox">
+              <label class="username">
+                  <span>Username or email</span>
+                  <input id="username" name="username" value="" type="text" autocomplete="on" placeholder="Username">
+
+              </label>
+
+              <label class="password">
+                  <span>Password</span>
+                  <input id="password" name="password" value="" type="password" placeholder="Password">
+              </label>
+
+              <button class="signin_button" type="submit">Sign in</button>
+
+              <p>
+                  <a class="forgot" href="#">Forgot your password?</a>
+              </p>
+
+          </fieldset>
+      </form>
+  </div>
+
+  </body>
+</html>
