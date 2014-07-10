@@ -10,5 +10,4 @@ deploy:
   api_key: "73008e80-70de-4ee5-98a1-996f224bfd68"
   app: "freshsite-staging"
 before_script:
-  - 'npm install -g bower grunt-cli'
-  - 'bower install'
+  - 'npm install -g bower grunt-cli'  
